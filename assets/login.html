@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>BookLoot - Sign in</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+
+    	<!--div navbar -->
+		<nav class="navbar">
+			<ul id="teste" class="nav-elements">   
+				    <li class="nav-item logo"><a class="bookloot nav-link" href="#">BookLoot</a></li>
+			</ul>
+			<div id="menu">
+				<ul class="nav nav-justify-content-end nav-elements">
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+					<li class="nav-item"><a class="nav-link" href=#">Contact</a></li>
+					<li class="nav-item"><a class="nav-link" href=#">Help</a></li>
+				</ul>
+			</div>
+			<div class="dropdown">
+				<button id="dropdownMenuButton" data-toggle="dropdown" class="menu-btn">
+                    Menu
+                    <i class="navbar-toggler-icon material-icons">
+                        dehaze
+                    </i>
+                </button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="about.html">About</a>
+					<a class="dropdown-item" href="login.html">Contact</a>
+					<a class="dropdown-item" href="help.html">Help</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- div form -->
+    	<div class="container-fluid col-4">
+    			<img class="img-fluid" src="img/BookLoot.png" alt="BookLoot_Logo">
+    		<form class="form-horizontal">
+    			<input class="form-control" type="text" placeholder="Email or username">
+    			<input class="form-control" type="password" placeholder="Password">
+    			<button type="button" class="btn btn-primary round">Login</button>
+    			<p class="terms">Don't have an account? <a href="#">Sign up</a></p>
+    		</form>
+    	</div>
+
+        <script src="js/main.js"></script>
+         <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>  
+    </body>
+</html>

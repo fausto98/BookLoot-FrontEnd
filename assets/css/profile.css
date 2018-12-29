@@ -1,0 +1,31 @@
+.profile-widget {
+	width: 491px;
+	height: 506px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 20px;
+	filter: drop-shadow(0px 3px 7px rgba(0, 0, 0, 0.16));
+	grid-column-start: 4;
+}
+
+.user-info {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+}
+.user-info label {
+	display: block;
+	margin-top: -10px;
+}
+
+.username {
+	font-weight: 800;
+	font-size: 30px;
+}
+
+.email {
+	font-weight: 500;
+	font-size: 18px;
+	color: #6C757D;
+}
